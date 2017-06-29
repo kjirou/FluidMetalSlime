@@ -6,20 +6,12 @@
   <targetVersion>0.17.1546</targetVersion>
   <description>Add fluid metallic slime.
 
-- It's very hard.
-- It moves quickly.
-- It does not have much experience value, but it drops a small amount of silver.
-
 Please refer to the following link for the license.
 https://github.com/kjirou/FluidMetalSlime/blob/master/LICENSE
 
 ----
 
 流体金属的なスライムを追加します。
-
-- それは非常に硬い。
-- それは素早く動く。
-- それは大量の経験値は持たないが、少量のシルバーを落とす。
 
 ライセンスについては以下のリンクを参照してください。
 https://github.com/kjirou/FluidMetalSlime/blob/master/LICENSE

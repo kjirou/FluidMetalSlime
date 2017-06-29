@@ -3,10 +3,9 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>FluidMetalSlime</defName>
     <label>Fluid Metal Slime</label>
-    <description>- It's very hard.
-- It moves quickly.
-- It does not have much experience value, but it drops a small amount of silver.
-</description>
+    <description>It looks slime like a melted metal. It has very high defense power and can move quickly.
+Because they are particularly persecuted on a planet they traveled to another planet to find a safe place to live.
+Unfortunately for them, it has become apparent that dismantling will be some valuable resource.</description>
     <statBases>
       <MoveSpeed>9.0</MoveSpeed>
       <ComfyTemperatureMax>64</ComfyTemperatureMax>
@@ -19,7 +18,7 @@
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>0.8</defaultCooldownTime>
+        <defaultCooldownTime>0.75</defaultCooldownTime>
         <meleeDamageBaseAmount>3</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <commonality>0.01</commonality>
@@ -78,6 +77,8 @@
     </tradeTags>
     <butcherProducts>
       <Steel>50</Steel>
+      <Plasteel>25</Plasteel>
+      <Uranium>10</Uranium>
     </butcherProducts>
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
