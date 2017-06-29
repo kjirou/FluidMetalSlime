@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <FluidMetalSlime.label>流体金属スライム<FluidMetalSlime.label>
+  <FluidMetalSlime.description>- それは非常に硬い。
+- それは素早く動く。
+- それは大量の経験値は持たないが、少量のシルバーを落とす。
+<FluidMetalSlime.description>
+  <FluidMetalSlime_Leather.label>流体金属スライムの皮<FluidMetalSlime_Leather.label>
+  <FluidMetalSlime_Meat.label>流体金属スライムの肉<FluidMetalSlime_Meat.label>
+  <FluidMetalSlime_Corpse.label>流体金属スライムの死骸<FluidMetalSlime_Corpse.label>
+</LanguageData>
