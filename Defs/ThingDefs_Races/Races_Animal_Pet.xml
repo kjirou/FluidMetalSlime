@@ -97,8 +97,8 @@
           <drawSize>0.8</drawSize>
           <shaderType>CutoutComplex</shaderType>
           <shadowData>
-            <volume>(0.25, 0.3, 0.25)</volume>
-            <offset>(0,0,-0.15)</offset>
+            <volume>(0.55, 0.2, 0.05)</volume>
+            <offset>(0.05,0,-0.25)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -112,8 +112,8 @@
           <drawSize>1.0</drawSize>
           <shaderType>CutoutComplex</shaderType>
           <shadowData>
-            <volume>(0.3, 0.4, 0.3)</volume>
-            <offset>(0,0,-0.15)</offset>
+            <volume>(0.7, 0.3, 0.1)</volume>
+            <offset>(0.05,0,-0.3)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
