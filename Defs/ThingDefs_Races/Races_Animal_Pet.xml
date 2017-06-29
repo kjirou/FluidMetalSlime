@@ -19,7 +19,7 @@
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.00</defaultCooldownTime>
+        <defaultCooldownTime>0.8</defaultCooldownTime>
         <meleeDamageBaseAmount>3</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <commonality>0.01</commonality>
@@ -27,7 +27,7 @@
       </li>
     </verbs>
     <race>
-      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <body>Snake</body>
       <petness>1</petness>
       <herdAnimal>true</herdAnimal>
       <baseBodySize>0.25</baseBodySize>
@@ -43,7 +43,7 @@
       <trainableIntelligence>Advanced</trainableIntelligence>
       <wildness>0</wildness>
       <nuzzleMtbHours>128</nuzzleMtbHours>
-      <lifeExpectancy>64</lifeExpectancy>
+      <lifeExpectancy>32</lifeExpectancy>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
@@ -51,11 +51,11 @@
         </li>
         <li>
           <def>AnimalJuvenile</def>
-          <minAge>20</minAge>
+          <minAge>4</minAge>
         </li>
         <li>
           <def>AnimalAdult</def>
-          <minAge>40</minAge>
+          <minAge>8</minAge>
           <soundWounded>Pawn_Dog_Injured</soundWounded>
           <soundDeath>Pawn_Dog_Death</soundDeath>
           <soundCall>Pawn_Dog_Call</soundCall>
