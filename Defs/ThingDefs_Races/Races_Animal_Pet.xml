@@ -8,7 +8,7 @@
 - It does not have much experience value, but it drops a small amount of silver.
 </description>
     <statBases>
-      <MoveSpeed>8.5</MoveSpeed>
+      <MoveSpeed>9.0</MoveSpeed>
       <ComfyTemperatureMax>64</ComfyTemperatureMax>
       <ComfyTemperatureMin>-255</ComfyTemperatureMin>
       <ArmorRating_Blunt>0.9</ArmorRating_Blunt>
@@ -36,7 +36,14 @@
       <foodType>OmnivoreAnimal</foodType>
       <leatherColor>(128,128,128)</leatherColor>
       <leatherLabel>Fluid Metal Slime fur</leatherLabel>
-      <leatherInsulation>1.0</leatherInsulation>
+      <leatherInsulation>0.25</leatherInsulation>
+      <leatherCommonalityFactor>0.1</leatherCommonalityFactor>
+      <leatherMarketValueFactor>10</leatherMarketValueFactor>
+      <leatherStatFactors>
+        <ArmorRating_Blunt>5.0</ArmorRating_Blunt>
+        <ArmorRating_Sharp>7.5</ArmorRating_Sharp>
+        <ArmorRating_Heat>3.5</ArmorRating_Heat>
+      </leatherStatFactors>
       <hasGenders>false</hasGenders>
       <gestationPeriodDays>64.0</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
@@ -69,6 +76,9 @@
     <tradeTags>
       <li>StandardAnimal</li>
     </tradeTags>
+    <butcherProducts>
+      <Steel>50</Steel>
+    </butcherProducts>
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>FluidMetalSlime</defName>
