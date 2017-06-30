@@ -8,11 +8,11 @@ Because they are particularly persecuted on a planet they traveled to another pl
 Unfortunately for them, it has become apparent that dismantling will be some valuable resource.</description>
     <statBases>
       <MoveSpeed>9.0</MoveSpeed>
-      <ComfyTemperatureMax>64</ComfyTemperatureMax>
+      <ComfyTemperatureMax>128</ComfyTemperatureMax>
       <ComfyTemperatureMin>-255</ComfyTemperatureMin>
       <ArmorRating_Blunt>0.9</ArmorRating_Blunt>
       <ArmorRating_Sharp>1.0</ArmorRating_Sharp>
-      <ArmorRating_Heat>0.75</ArmorRating_Heat>
+      <ArmorRating_Heat>0.8</ArmorRating_Heat>
       <MarketValue>1005</MarketValue>
     </statBases>
     <verbs>
@@ -31,7 +31,7 @@ Unfortunately for them, it has become apparent that dismantling will be some val
       <herdAnimal>true</herdAnimal>
       <baseBodySize>0.25</baseBodySize>
       <baseHungerRate>0.25</baseHungerRate>
-      <baseHealthScale>1.05</baseHealthScale>
+      <baseHealthScale>1.0</baseHealthScale>
       <foodType>OmnivoreAnimal</foodType>
       <leatherColor>(128,128,128)</leatherColor>
       <leatherLabel>Fluid Metal Slime fur</leatherLabel>
@@ -42,6 +42,7 @@ Unfortunately for them, it has become apparent that dismantling will be some val
         <ArmorRating_Blunt>5.0</ArmorRating_Blunt>
         <ArmorRating_Sharp>7.5</ArmorRating_Sharp>
         <ArmorRating_Heat>3.5</ArmorRating_Heat>
+        <Flammability>0</Flammability>
       </leatherStatFactors>
       <hasGenders>false</hasGenders>
       <gestationPeriodDays>64.0</gestationPeriodDays>
@@ -87,6 +88,8 @@ Unfortunately for them, it has become apparent that dismantling will be some val
     <labelPlural>Fluid Metal Slime team</labelPlural>
     <race>FluidMetalSlime</race>
     <combatPower>100</combatPower>
+    <wildSpawn_EcoSystemWeight>0.05</wildSpawn_EcoSystemWeight>
+    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
     <canArriveManhunter>false</canArriveManhunter>
     <lifeStages>
       <li>
