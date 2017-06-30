@@ -4,14 +4,18 @@
   <author>kjirou</author>
   <url>https://github.com/kjirou/FluidMetalSlime</url>
   <targetVersion>0.17.1546</targetVersion>
-  <description>Add fluid metallic slime.
+  <description>Add fluid metallic slime to the animal.
+
+Fluid Metal Slime is very hard, quick and can obtain precious resources by dismantling.
 
 Please refer to the following link for the license.
 https://github.com/kjirou/FluidMetalSlime/blob/master/LICENSE
 
 ----
 
-流体金属的なスライムを追加します。
+動物に流体金属的なスライムを追加します。
+
+流体金属スライムは、非常に硬く、素早く、そして解体により貴重な資源を得ることができます。
 
 ライセンスについては以下のリンクを参照してください。
 https://github.com/kjirou/FluidMetalSlime/blob/master/LICENSE

@@ -88,8 +88,8 @@ Unfortunately for them, it has become apparent that dismantling will be some val
     <labelPlural>Fluid Metal Slime team</labelPlural>
     <race>FluidMetalSlime</race>
     <combatPower>100</combatPower>
-    <wildSpawn_EcoSystemWeight>0.05</wildSpawn_EcoSystemWeight>
     <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <wildSpawn_EcoSystemWeight>0.05</wildSpawn_EcoSystemWeight>
     <canArriveManhunter>false</canArriveManhunter>
     <lifeStages>
       <li>
@@ -136,6 +136,5 @@ Unfortunately for them, it has become apparent that dismantling will be some val
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
-    <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
   </PawnKindDef>
 </Defs>
