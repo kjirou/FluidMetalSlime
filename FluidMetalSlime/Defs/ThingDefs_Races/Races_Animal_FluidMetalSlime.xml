@@ -10,9 +10,9 @@ Unfortunately for them, it has become apparent that dismantling will be some val
       <MoveSpeed>9.0</MoveSpeed>
       <ComfyTemperatureMax>128</ComfyTemperatureMax>
       <ComfyTemperatureMin>-255</ComfyTemperatureMin>
-      <ArmorRating_Blunt>0.9</ArmorRating_Blunt>
+      <ArmorRating_Blunt>0.95</ArmorRating_Blunt>
       <ArmorRating_Sharp>1.0</ArmorRating_Sharp>
-      <ArmorRating_Heat>0.8</ArmorRating_Heat>
+      <ArmorRating_Heat>0.9</ArmorRating_Heat>
       <MarketValue>1005</MarketValue>
       <MeatAmount>0</MeatAmount>
     </statBases>
@@ -31,7 +31,7 @@ Unfortunately for them, it has become apparent that dismantling will be some val
       <petness>1</petness>
       <baseBodySize>0.25</baseBodySize>
       <baseHungerRate>0.25</baseHungerRate>
-      <baseHealthScale>1.0</baseHealthScale>
+      <baseHealthScale>0.25</baseHealthScale>
       <foodType>OmnivoreAnimal</foodType>
       <leatherColor>(128,128,128)</leatherColor>
       <leatherLabel>Fluid Metal Slime fur</leatherLabel>
