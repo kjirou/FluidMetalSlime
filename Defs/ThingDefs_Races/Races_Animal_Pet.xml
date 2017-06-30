@@ -28,7 +28,6 @@ Unfortunately for them, it has become apparent that dismantling will be some val
     <race>
       <body>Snake</body>
       <petness>1</petness>
-      <herdAnimal>true</herdAnimal>
       <baseBodySize>0.25</baseBodySize>
       <baseHungerRate>0.25</baseHungerRate>
       <baseHealthScale>1.0</baseHealthScale>
@@ -45,11 +44,8 @@ Unfortunately for them, it has become apparent that dismantling will be some val
         <Flammability>0</Flammability>
       </leatherStatFactors>
       <hasGenders>false</hasGenders>
-      <gestationPeriodDays>64.0</gestationPeriodDays>
-      <nameOnTameChance>1</nameOnTameChance>
       <trainableIntelligence>Advanced</trainableIntelligence>
-      <wildness>0</wildness>
-      <nuzzleMtbHours>128</nuzzleMtbHours>
+      <wildness>0.75</wildness>
       <lifeExpectancy>32</lifeExpectancy>
       <lifeStageAges>
         <li>
@@ -88,8 +84,8 @@ Unfortunately for them, it has become apparent that dismantling will be some val
     <labelPlural>Fluid Metal Slime team</labelPlural>
     <race>FluidMetalSlime</race>
     <combatPower>100</combatPower>
+    <wildSpawn_EcoSystemWeight>0.25</wildSpawn_EcoSystemWeight>
     <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.05</wildSpawn_EcoSystemWeight>
     <canArriveManhunter>false</canArriveManhunter>
     <lifeStages>
       <li>
