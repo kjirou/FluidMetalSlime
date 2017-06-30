@@ -46,7 +46,18 @@ Unfortunately for them, it has become apparent that dismantling will be some val
       </leatherStatFactors>
       <hasGenders>false</hasGenders>
       <trainableIntelligence>Advanced</trainableIntelligence>
-      <wildness>0.75</wildness>
+      <wildness>0.25</wildness>
+      <wildBiomes>
+        <AridShrubland>0.1</AridShrubland>
+        <BorealForest>0.1</BorealForest>
+        <Desert>0.1</Desert>
+        <ExtremeDesert>0.1</ExtremeDesert>
+        <IceSheet>0.1</IceSheet>
+        <SeaIce>0.1</SeaIce>
+        <TemperateForest>0.1</TemperateForest>
+        <TropicalRainforest>0.1</TropicalRainforest>
+        <Tundra>0.1</Tundra>
+      </wildBiomes>
       <lifeExpectancy>32</lifeExpectancy>
       <lifeStageAges>
         <li>
@@ -85,8 +96,8 @@ Unfortunately for them, it has become apparent that dismantling will be some val
     <labelPlural>Fluid Metal Slime team</labelPlural>
     <race>FluidMetalSlime</race>
     <combatPower>100</combatPower>
-    <wildSpawn_EcoSystemWeight>0.25</wildSpawn_EcoSystemWeight>
     <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <wildSpawn_EcoSystemWeight>0.25</wildSpawn_EcoSystemWeight>
     <canArriveManhunter>false</canArriveManhunter>
     <lifeStages>
       <li>
