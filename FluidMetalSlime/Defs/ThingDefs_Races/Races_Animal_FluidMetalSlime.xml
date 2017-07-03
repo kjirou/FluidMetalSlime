@@ -29,8 +29,8 @@ Unfortunately for them, it has become apparent that dismantling will be some val
     <race>
       <body>Snake</body>
       <petness>1</petness>
-      <baseBodySize>0.25</baseBodySize>
-      <baseHungerRate>0.25</baseHungerRate>
+      <baseBodySize>0.125</baseBodySize>
+      <baseHungerRate>0.125</baseHungerRate>
       <baseHealthScale>0.25</baseHealthScale>
       <foodType>OmnivoreAnimal</foodType>
       <leatherColor>(128,128,128)</leatherColor>
@@ -45,18 +45,19 @@ Unfortunately for them, it has become apparent that dismantling will be some val
         <Flammability>0</Flammability>
       </leatherStatFactors>
       <hasGenders>false</hasGenders>
+      <needsRest>false</needsRest>
       <trainableIntelligence>Advanced</trainableIntelligence>
       <wildness>0.25</wildness>
       <wildBiomes>
-        <AridShrubland>0.1</AridShrubland>
-        <BorealForest>0.1</BorealForest>
-        <Desert>0.1</Desert>
-        <ExtremeDesert>0.1</ExtremeDesert>
-        <IceSheet>0.1</IceSheet>
-        <SeaIce>0.1</SeaIce>
-        <TemperateForest>0.1</TemperateForest>
-        <TropicalRainforest>0.1</TropicalRainforest>
-        <Tundra>0.1</Tundra>
+        <AridShrubland>0.2</AridShrubland>
+        <BorealForest>0.2</BorealForest>
+        <Desert>0.2</Desert>
+        <ExtremeDesert>0.2</ExtremeDesert>
+        <IceSheet>0.2</IceSheet>
+        <SeaIce>0.2</SeaIce>
+        <TemperateForest>0.2</TemperateForest>
+        <TropicalRainforest>0.2</TropicalRainforest>
+        <Tundra>0.2</Tundra>
       </wildBiomes>
       <lifeExpectancy>32</lifeExpectancy>
       <lifeStageAges>
@@ -95,7 +96,7 @@ Unfortunately for them, it has become apparent that dismantling will be some val
     <label>Fluid Metal Slime</label>
     <labelPlural>Fluid Metal Slime team</labelPlural>
     <race>FluidMetalSlime</race>
-    <combatPower>100</combatPower>
+    <combatPower>80</combatPower>
     <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
     <wildSpawn_EcoSystemWeight>0.25</wildSpawn_EcoSystemWeight>
     <canArriveManhunter>false</canArriveManhunter>
